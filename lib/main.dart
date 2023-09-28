@@ -1,8 +1,13 @@
+import 'package:deal_test/view/screens/loginhome.dart';
+import 'package:deal_test/view/screens/settingpage.dart';
+
 import 'package:deal_test/view/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
-void main(){
+
+void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -10,9 +15,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/':(context) => const SplashScreen(),
+        '/': (context) => const SplashScreen(),
+        '/loginhome': (context) => const Loginhome(),
+        '/settingspage': (context) => const SettingsPage(),
       },
-      initialRoute: '/',
+      initialRoute: '/settingspage',
     );
   }
 }
