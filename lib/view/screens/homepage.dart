@@ -48,7 +48,7 @@ class _HomepageState extends State<Homepage> {
               leading: ImageIcon(
                   AssetImage('assets/images/woman.png')
               ),
-              title: Text('WOMEN'),
+              title: Text('WOMAN'),
             ),
             Divider(),
             ListTile(
