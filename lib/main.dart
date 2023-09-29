@@ -1,4 +1,6 @@
+import 'package:deal_test/view/screens/homepage.dart';
 import 'package:deal_test/view/screens/loginhome.dart';
+import 'package:deal_test/view/screens/loginpage.dart';
 import 'package:deal_test/view/screens/settingpage.dart';
 
 import 'package:deal_test/view/screens/splashscreen.dart';
@@ -15,11 +17,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/': (context) => const SplashScreen(),
+        '/splashscreen': (context) => const SplashScreen(),
         '/loginhome': (context) => const Loginhome(),
         '/settingspage': (context) => const SettingsPage(),
+        '/homepage': (context) => const Homepage(),
+        '/loginpage': (context) => const LoginPageTestSample(),
       },
-      initialRoute: '/settingspage',
+      initialRoute: '/homepage',
     );
   }
 }
