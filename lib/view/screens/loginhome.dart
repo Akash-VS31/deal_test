@@ -12,7 +12,7 @@ class _LoginhomeState extends State<Loginhome> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Image(image: AssetImage('assets/images/applogo.png')),
+        title: const Image(image: AssetImage('assets/images/applogo.png')),
         elevation: 0,
       ),
       body: Stack(
@@ -57,11 +57,11 @@ class _LoginhomeState extends State<Loginhome> {
                            width: 133,
                            height: 46,
                            child: ElevatedButton(
-                               style: ButtonStyle(
+                               style: const ButtonStyle(
                                  backgroundColor: MaterialStatePropertyAll(Color(0xFF5529A4)),
                                ),
                                onPressed: () {},
-                               child:Text("Sign In",
+                               child:const Text("Sign In",
                                  style:TextStyle(fontFamily: 'Oswald-Bold'))
                            ),
                          ),
@@ -69,13 +69,13 @@ class _LoginhomeState extends State<Loginhome> {
                          SizedBox(width: 133,
                            height: 46,
                            child: ElevatedButton(
-                               style: ButtonStyle(
+                               style: const ButtonStyle(
                                  backgroundColor:
                                    MaterialStatePropertyAll(Color(0xFF5529A4)),
                                ),
                                onPressed:() {
 
-                               },  child:Text("Register",style: TextStyle(
+                               },  child:const Text("Register",style: TextStyle(
                                fontFamily:'Oswald-Bold' ),) ),
                          ),
                        ],
