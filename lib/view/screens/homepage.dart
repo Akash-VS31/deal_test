@@ -32,6 +32,7 @@ class _HomepageState extends State<Homepage> {
             DrawerHeader(child:
             Padding(padding: EdgeInsets.all(8.0),
             child: CircleAvatar(
+              backgroundColor: Colors.purple,
               radius: 50,
             ),
             )
