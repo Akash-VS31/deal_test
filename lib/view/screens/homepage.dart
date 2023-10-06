@@ -94,7 +94,7 @@ class _HomepageState extends State<Homepage> {
           },
           items: const [
             BottomNavigationBarItem(
-              icon: Icon(Icons.fire_extinguisher_sharp),
+              icon: Icon(Icons.list_alt_sharp),
               label: "Deals",
             ),
             BottomNavigationBarItem(
